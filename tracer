@@ -3,3 +3,4 @@ wget https://github.com/ip2location/ip2location-traceroute/archive/master.zip
 unzip master.zip && rm master.zip
 make
 make install
+ip2trace -p 8.8.8.8 -d /usr/share/ip2location/DB24.BIN24.213.23.146
